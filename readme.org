@@ -1,4 +1,74 @@
 * readme.org
 
+This file is displayed at 
+
+https://github.com/changmingchen/org-github-page
+
+
 * from .org to github page
+
+* .org export to html
+
+** The name of the output/exported file
+
+How can I specify the filename for org-mode export in Emacs?
+
+http://emacs.stackexchange.com/questions/10391/how-can-i-specify-the-filename-for-org-mode-export-in-emacs
+
+According to the cited manual page, EXPORT_FILE_NAME applies only for subtree export.
+
+
+For subtree export, you can also set EXPORT_FILE_NAME property. In all cases, only the base name of the file is retained, and a back-end specific extension is added.
+
+http://orgmode.org/manual/Export-settings.html
+
+** property
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: index.html
+   :END:
+
+
+
+A property is a key-value pair associated with an entry...
+
+http://orgmode.org/manual/Properties-and-columns.html#Properties-and-columns
+
+
+The following commands help to work with properties:
+
+http://orgmode.org/manual/Property-syntax.html#Property-syntax
+
+C-c C-x p     (org-set-property)
+
+Set a property. This prompts for a property name and a value. If necessary, the property drawer is created as well. 
+
+* to be exported to index.html
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: index.html
+  :END:
+
+** github pages
+
+https://pages.github.com/
+
+| steps | aims                                       | pick |
+|-------+--------------------------------------------+------|
+|       | user site                                  |      |
+|       |                                            |      |
+|       | project site                               | v    |
+|       |                                            |      |
+|-------+--------------------------------------------+------|
+|       | pre-built themes                           |      |
+|       |                                            |      |
+|       | start from scratch                         | v    |
+|       |                                            |      |
+|-------+--------------------------------------------+------|
+|       | Create a gh-pages branch                   |      |
+|       |                                            |      |
+|-------+--------------------------------------------+------|
+|       | Create an index.html file                  |      |
+|       |                                            |      |
+|-------+--------------------------------------------+------|
+|       | go to http://username.github.io/repository |      |
+|       |                                            |      |
 
