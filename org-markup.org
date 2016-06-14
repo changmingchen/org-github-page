@@ -1,0 +1,109 @@
+
+* Comment lines
+
+http://orgmode.org/manual/Comment-lines.html#Comment-lines
+
+written in .org and not exported.
+
+| one line | multiple lines  |
+|          | region          |
+|----------+-----------------|
+| #        | #+BEGIN_COMMENT |
+|          |                 |
+|          | #+END_COMMENT   |
+
+# one line comment, will not be exported.
+
+#+BEGIN_COMMENT
+
+regions 
+of 
+comments.
+
+will not be 
+exported.
+
+#+END_COMMENT
+
+* Paragraphs, line breaks, and quoting
+
+http://orgmode.org/manual/Paragraphs.html#Paragraphs
+
+| export and view in html | VERSE | QUOTE | CENTER         |
+|-------------------------+-------+-------+----------------|
+| keep the line breaks    | yes   | no    | no             |
+|                         |       |       |                |
+| indentation             | yes   | yes   | not applicable |
+
+
+** VERSE
+
+To keep the line breaks in a region, but otherwise use normal formatting.
+
+     #+BEGIN_VERSE
+      Great clouds overhead
+      Tiny black birds rise and fall
+      Snow covers Emacs
+     
+          -- AlexSchroeder
+     #+END_VERSE
+
+#+BEGIN_VERSE
+Great clouds overhead
+Tiny black birds rise and fall
+Snow covers Emacs
+     
+    -- AlexSchroeder
+
+
+When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this:
+
+#+END_VERSE
+
+
+** a QUOTE
+
+#+BEGIN_QUOTE
+Everything should be made as simple as possible,
+but not any simpler -- Albert Einstein
+
+When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this:
+
+
+
+
+#+END_QUOTE
+
+
+** QUOTE
+
+#+BEGIN_QUOTE
+Everything should be made as simple as possible,
+but not any simpler -- Albert Einstein
+
+When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this:
+
+
+
+
+#+END_QUOTE
+
+
+
+
+** CENTER
+
+place center.
+
+#+BEGIN_CENTER
+Everything should be made as simple as possible, \\
+but not any simpler
+
+Everything should be made as simple as possible, 
+but not any simpler
+
+When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this:
+
+
+#+END_CENTER
+
