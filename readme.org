@@ -1,4 +1,27 @@
 * readme.org
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: index.html
+  :END:
+
+
+The readme.org file is hosted at https://github.com/changmingchen/org-github-page
+
+The website for this project, github pages, is hosted at http://changmingchen.github.io/org-github-page
+
+|               | website    | github repository |
+|---------------+------------+-------------------|
+| default files | index.html | readme.org        |
+|               |            |                   |
+| branches      | gh-pages   | origin/master     |
+|               |            |                   |
+|               |            |                   |
+
+
+
+
+
+
+* readme.org
 
 This file is displayed at 
 
