@@ -4,10 +4,6 @@
   :END:
 
 
-The readme.org file is hosted at https://github.com/changmingchen/org-github-page
-
-The website for this project, github pages, is hosted at http://changmingchen.github.io/org-github-page
-
 |               | github repository | website     |
 |---------------+-------------------+-------------|
 | default files | readme.org        | index.html  |
@@ -23,6 +19,7 @@ reference
 1
 
 https://github.com/changmingchen/org-github-page
+
 
 
 2
