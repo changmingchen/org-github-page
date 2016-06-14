@@ -8,27 +8,33 @@ The readme.org file is hosted at https://github.com/changmingchen/org-github-pag
 
 The website for this project, github pages, is hosted at http://changmingchen.github.io/org-github-page
 
-|               | website    | github repository |
-|---------------+------------+-------------------|
-| default files | index.html | readme.org        |
-|               |            |                   |
-| branches      | gh-pages   | origin/master     |
-|               |            |                   |
-|               |            |                   |
+|               | github repository | website     |
+|---------------+-------------------+-------------|
+| default files | readme.org        | index.html  |
+|               |                   |             |
+| branches      | master            | gh-pages    |
+|               |                   |             |
+| url           | reference 1       | reference 2 |
+|               |                   |             |
 
 
+reference
 
-
-
-
-* readme.org
-
-This file is displayed at 
+1
 
 https://github.com/changmingchen/org-github-page
 
 
-* from .org to github page
+2
+
+http://changmingchen.github.io/org-github-page
+
+
+
+
+
+
+
 
 * gh-pages branch
 
