@@ -1,0 +1,101 @@
+
+* index.org
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: index.html
+  :END:
+
+
+The readme.org file is hosted at https://github.com/changmingchen/org-github-page
+
+The website for this project, github pages, is hosted at http://changmingchen.github.io/org-github-page
+
+|               | website    | github repository |
+|---------------+------------+-------------------|
+| default files | index.html | readme.org        |
+|               |            |                   |
+| branches      | gh-pages   | origin/master     |
+|               |            |                   |
+|               |            |                   |
+
+
+
+
+* gh-pages branch
+
+https://git-scm.com/book/zh-tw/v1/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%9A%84%E6%96%B0%E5%BB%BA%E8%88%87%E5%90%88%E4%BD%B5
+
+git branch    gh-pages # generate branch 
+
+git branch -d gh-pages # delete   branch
+
+
+
+
+* .org export to html
+
+** The name of the output/exported file
+
+How can I specify the filename for org-mode export in Emacs?
+
+http://emacs.stackexchange.com/questions/10391/how-can-i-specify-the-filename-for-org-mode-export-in-emacs
+
+According to the cited manual page, EXPORT_FILE_NAME applies only for subtree export.
+
+
+For subtree export, you can also set EXPORT_FILE_NAME property. In all cases, only the base name of the file is retained, and a back-end specific extension is added.
+
+http://orgmode.org/manual/Export-settings.html
+
+** property
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: index.html
+   :END:
+
+
+
+A property is a key-value pair associated with an entry...
+
+http://orgmode.org/manual/Properties-and-columns.html#Properties-and-columns
+
+
+The following commands help to work with properties:
+
+http://orgmode.org/manual/Property-syntax.html#Property-syntax
+
+C-c C-x p     (org-set-property)
+
+Set a property. This prompts for a property name and a value. If necessary, the property drawer is created as well. 
+
+
+* to be exported to index.html
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: index.html
+  :END:
+
+http://changmingchen.github.io/org-github-page
+
+** github pages
+
+https://pages.github.com/
+
+| steps | aims                                       | pick |
+|-------+--------------------------------------------+------|
+|       | user site                                  |      |
+|       |                                            |      |
+|       | project site                               | v    |
+|       |                                            |      |
+|-------+--------------------------------------------+------|
+|       | pre-built themes                           |      |
+|       |                                            |      |
+|       | start from scratch                         | v    |
+|       |                                            |      |
+|-------+--------------------------------------------+------|
+|       | Create a gh-pages branch                   |      |
+|       |                                            |      |
+|-------+--------------------------------------------+------|
+|       | Create an index.html file                  |      |
+|       |                                            |      |
+|-------+--------------------------------------------+------|
+|       | go to http://username.github.io/repository |      |
+|       |                                            |      |
+
