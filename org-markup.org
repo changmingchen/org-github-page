@@ -3,16 +3,41 @@
 
 http://orgmode.org/manual/Comment-lines.html#Comment-lines
 
-written in .org and not exported.
+Comment lines are editable, visible in .org and not exported.
 
-| one line | multiple lines  |
-|          | region          |
-|----------+-----------------|
-| #        | #+BEGIN_COMMENT |
-|          |                 |
-|          | #+END_COMMENT   |
+| effective area | one line | multiple lines        | a sub-tree           |
+|                |          | region                |                      |
+|----------------+----------+-----------------------+----------------------|
+| format         | #        | #+BEGIN_COMMENT       | * COMMENT            |
+|                |          | regions to be comment |                      |
+|                |          | #+END_COMMENT         |                      |
+|----------------+----------+-----------------------+----------------------|
+|                |          |                       | get inside a subtree |
+|                |          |                       | C-c ;                |
+|                |          |                       |                      |
+
+#+BEGIN_EXAMPLE
+# one line comment, will not be exported.
+#+END_EXAMPLE
 
 # one line comment, will not be exported.
+
+
+
+#+BEGIN_EXAMPLE
+#+BEGIN_COMMENT
+
+regions 
+of 
+comments.
+
+will not be 
+exported.
+
+#+END_COMMENT
+#+END_EXAMPLE
+
+
 
 #+BEGIN_COMMENT
 
@@ -24,6 +49,22 @@ will not be
 exported.
 
 #+END_COMMENT
+
+
+
+** COMMENT a sub-tree for comment
+
+C-c ;
+Toggle the ‘COMMENT’ keyword at the beginning of an entry.
+
+
+#+BEGIN_EXAMPLE
+** COMMENT a sub-tree for comment
+
+C-c ;
+Toggle the ‘COMMENT’ keyword at the beginning of an entry.
+#+END_EXAMPLE
+
 
 * Paragraphs, line breaks, and quoting
 
@@ -57,6 +98,10 @@ Snow covers Emacs
 
 
 When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this: When quoting a passage from another document, it is customary to format this as a paragraph that is indented on both the left and the right margin. You can include quotations in Org mode documents like this:
+
+#+END_VERSE
+
+#+BEGIN_VERSE
 
 #+END_VERSE
 
@@ -106,4 +151,27 @@ When quoting a passage from another document, it is customary to format this as 
 
 
 #+END_CENTER
+
+
+* Literal examples
+
+http://orgmode.org/manual/Literal-examples.html
+
+
+
+     #+BEGIN_EXAMPLE
+     Some example from a text file.
+     #+END_EXAMPLE
+
+#+BEGIN_EXAMPLE -n
+<
+e
+tab
+#+END_EXAMPLE
+
+     #+BEGIN_SRC emacs-lisp
+       (defun org-xor (a b)
+          "Exclusive or."
+          (if a (not b) b))
+     #+END_SRC
 

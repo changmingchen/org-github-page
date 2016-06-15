@@ -4,14 +4,14 @@
   :END:
 
 
-|               | github repository | website     |
-|---------------+-------------------+-------------|
-| default files | readme.org        | index.html  |
-|               |                   |             |
-| branches      | master            | gh-pages    |
-|               |                   |             |
-| url           | reference 1       | reference 2 |
-|               |                   |             |
+| repository    | github service | github pages | github wiki |
+|---------------+----------------+--------------+-------------|
+| default files | readme.org     | index.html   |             |
+|               |                |              |             |
+| branches      | master         | gh-pages     |             |
+|               |                |              |             |
+| url           | reference 1    | reference 2  |             |
+|               |                |              |             |
 
 
 reference
